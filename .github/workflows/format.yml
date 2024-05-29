@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "iptv-bot[bot]"
           git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
-      - uses: tj-actions/changed-files@v35
+      - uses: tj-actions/changed-files@v41
         id: files
         with:
           files: streams/*.m3u
